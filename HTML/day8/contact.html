@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .navbar {
+        overflow: hidden;
+        background-color: burlywood;
+      }
+      .navitem {
+        list-style: none;
+        float: left;
+      }
+
+      .navlink {
+        text-decoration: none;
+        padding: 10px 10px;
+        text-align: center;
+        display: block;
+      }
+
+      li a:hover {
+        background-color: antiquewhite;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!--    <h1>This is my heading</h1> -->
+      <img
+        src="https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg?cs=srgb&dl=pexels-carlos-oliva-3586966.jpg&fm=jpg"
+        width="100%"
+        height="200"
+        id="logo"
+      />
+      <nav>
+        <ul class="navbar">
+          <li class="navitem"><a class="navlink" href="index.html">Home</a></li>
+          <li class="navitem">
+            <a class="navlink" href="info.html">Information</a>
+          </li>
+          <li class="navitem">
+            <a class="navlink" href="about.html">About</a>
+          </li>
+          <li class="navitem">
+            <a class="navlink" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!--   <ul>
+          <li>hello</li>
+          <li>hello</li>
+          <li>hello</li>
+          <li>hello</li>
+        </ul> -->
+    </header>
+
+    <form>
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" />
+      <br />
+      <br />
+      <label for="email">Email</label>
+      <input type="text" name="name" id="email" />
+      <br />
+      <br />
+
+      <textarea name="description" id="desc" cols="50" rows="15"> </textarea>
+      <br />
+      <br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
