@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .navbar {
+        overflow: hidden;
+        background-color: burlywood;
+      }
+      .navitem {
+        list-style: none;
+        float: left;
+      }
+
+      .navlink {
+        text-decoration: none;
+        padding: 10px 10px;
+        text-align: center;
+        display: block;
+      }
+
+      li a:hover {
+        background-color: antiquewhite;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align: center; color: blue" id="logo">My Travel Blog</h1>
+      <nav>
+        <ul class="navbar">
+          <li class="navitem"><a class="navlink" href="index.html">Home</a></li>
+
+          <li class="navitem">
+            <a class="navlink" href="about.html">Places</a>
+          </li>
+          <li class="navitem">
+            <a class="navlink" href="contact.html">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <table style="border: 2px solid black; border-spacing: 25px">
+        <!-- city -->
+        <tr>
+          <th>City</th>
+          <th>Month</th>
+          <th>Cost</th>
+        </tr>
+
+        <tr>
+          <td>Place1</td>
+          <td>June</td>
+          <td>60000</td>
+        </tr>
+
+        <tr>
+          <td>Place2</td>
+          <td>Aug</td>
+          <td>60000</td>
+        </tr>
+        <tr>
+          <td>Place3</td>
+          <td>Oct</td>
+          <td>80000</td>
+        </tr>
+        <tr>
+          <td>Place4</td>
+          <td>Dec</td>
+          <td>90000</td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>
