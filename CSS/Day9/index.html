@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /*  root element - html */
+      html {
+        font-size: 20px;
+      }
+      .container {
+        font-size: 10px;
+        height: 50vh;
+        width: 50vw;
+        background-color: blue;
+      }
+
+      /*   em - depends on the parent 
+           rem- depends on the root element     
+      */
+
+      #p1 {
+        font-size: 3rem;
+        padding: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p id="p1">First Paragraph</p>
+      <p id="p2">Second Paragraph</p>
+      <p id="p3">Third Paragraph</p>
+    </div>
+  </body>
+</html>

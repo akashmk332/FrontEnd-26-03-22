@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        padding: 300px;
+      }
+      .card {
+        display: flex;
+        justify-content: space-around;
+        background-color: aliceblue;
+        padding: 15px;
+        border-radius: 15px;
+      }
+
+      .title,
+      .date {
+        padding-top: 10px;
+      }
+      .title {
+        font-weight: 500;
+      }
+
+      .card:hover {
+        background-color: white;
+        box-shadow: 0 0 40px lightgrey;
+      }
+      .roundcheck > .blue {
+        display: none;
+      }
+
+      .card:hover .blue {
+        display: inline;
+      }
+      .card:hover .gray {
+        display: none;
+      }
+
+      .color-button {
+        width: 40px;
+        height: 10px;
+        background-color: brown;
+        border-radius: 10px;
+        margin-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="roundcheck">
+          <img class="gray" src="./tick-gray.png" />
+          <img class="blue" src="./tick-blue.png" />
+        </div>
+        <div class="title">
+          <span>Blurr Animation</span>
+        </div>
+        <div class="user">
+          <img class="user-red" src="./user-red.png" />
+        </div>
+        <div class="date">
+          <span>11 Dec</span>
+        </div>
+        <div class="color-button">
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /*    div {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+      } */
+
+      /*     #rect1 {
+        background-color: aqua;
+        top: 100px;
+        left: 50px;
+        z-index: 1;
+      }
+      #rect2 {
+        background-color: chartreuse;
+        top: 150px;
+        left: 100px;
+      }
+      #rect3 {
+        background-color: brown;
+        top: 200px;
+        left: 150px;
+      } */
+
+      h1::before {
+        transform: scaleX(0);
+        transform-origin: bottom right;
+      }
+
+      h1:hover::before {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+
+      h1::before {
+        content: "";
+        background-color: cyan;
+        display: block;
+        position: absolute;
+        transition: transform 0.5s ease-in;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <!--  <div id="rect1"></div>
+    <div id="rect2"></div>
+    <div id="rect3"></div> -->
+
+    <h1>Look at Me!</h1>
+  </body>
+</html>

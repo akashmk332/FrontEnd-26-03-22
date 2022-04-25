@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  padding: 16px 78px;
+  align-items: center;
+  /*  box-shadow: 0px 0px 2px black; */
+  box-shadow: 2px 2px 2px gainsboro;
+}
+
+.logo1 {
+  width: 130px;
+  font-size: 32px;
+  color: #0084ff;
+  font-weight: 1000;
+  font-family: raleway, sans-serif;
+}
+
+.logo2 {
+  margin: 0;
+  font-weight: 500;
+  font-family: raleway, sans-serif;
+  font-style: italic;
+}
+i {
+  padding-left: 10px;
+}

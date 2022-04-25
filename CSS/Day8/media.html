@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .rectangle {
+        background-color: aqua;
+        text-align: center;
+        display: none;
+        padding: 20px;
+        border-radius: 20px;
+      }
+
+      @media (min-width: 300px) and (max-width: 500px) {
+        /*    300<x<400 */
+        #iphone {
+          background-color: blue;
+          display: block;
+          color: white;
+        }
+      }
+      @media (min-width: 500px) and (max-width: 800px) {
+        /*    300<x<400 */
+        #android {
+          background-color: chartreuse;
+          display: block;
+          color: white;
+        }
+      }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        /*    600<x<9000 */
+        #tablet {
+          background-color: darkblue;
+          display: block;
+          color: white;
+        }
+      }
+      @media (min-width: 1300px) and (max-width: 1500px) {
+        /*    600<x<9000 */
+        #desktop {
+          background-color: darkmagenta;
+          display: block;
+          color: white;
+        }
+      }
+      @media (min-width: 1600px) and (max-width: 1900px) {
+        /*    600<x<9000 */
+        #super {
+          background-color: darkorange;
+          display: block;
+          color: white;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="rectangle" id="iphone">
+        <p>Iphone</p>
+      </div>
+      <div class="rectangle" id="android">
+        <p>Android</p>
+      </div>
+      <div class="rectangle" id="tablet">
+        <p>tablet</p>
+      </div>
+      <div class="rectangle" id="desktop">
+        <p>Desktop</p>
+      </div>
+      <div class="rectangle" id="super">
+        <p>Super Computer</p>
+      </div>
+    </div>
+  </body>
+</html>

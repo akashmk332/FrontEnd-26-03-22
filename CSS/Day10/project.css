@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  height: 85vh;
+  background-image: linear-gradient(
+      50deg,
+      rgba(193, 195, 204, 0.83),
+      rgba(193, 195, 204, 0.28)
+    ),
+    url(https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg);
+  position: relative;
+  background-position: 0px 0px, 50% 0%;
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header img {
+  background-color: #e47312;
+  width: 100px;
+  padding: 35px;
+}
+
+header ul li {
+  display: inline-block;
+  text-decoration: none;
+  font-size: large;
+}
+
+.contact {
+  display: flex;
+  padding: 30px;
+  background-image: linear-gradient(186deg, #e47312, #ff6361);
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -83px;
+  width: 1200px;
+  right: 0;
+}
+
+.socialmedia {
+}
+
+.socialbox {
+  position: absolute;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  right: 0;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  bottom: 150px;
+}
+
+a {
+  color: #fff;
+}
