@@ -47,7 +47,7 @@ console.log(isNaN(myMarks));
 
 /* Gargi  - is not a number // true */
 /* 90  - is not a number // false */
-/* "90"  - is not a number // true */
+/* "90"  - is not a number // false */
 
 /* boolean is a datatype  */
 
