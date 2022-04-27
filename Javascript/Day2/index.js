@@ -1,4 +1,4 @@
-var myName = "11Nitin";
+var myName = "11Gargi";
 
 /* console.log(isNaN(NaN)); */
 
@@ -17,23 +17,29 @@ console.log(22 % 3); */
 //postfix and prefix operators
 
 //a++, ++a
+//a++ -> a=a+1
+//a+b // a, b operands , + operator
 
 //postfix
-/* var myMarks = 45;
-var myUpdatedMarks = myMarks++ + 5; // expression
-first evaluate the expression with the original value
+//var myMarks = 45; // 45+1
+//var myUpdatedMarks = myMarks + 5; // expression //45 + 5
+/* first evaluate the expression with the original value
 the value of the variable is incremented
-console.log(myMarks);
-console.log(myUpdatedMarks); */
+1) original value (45) + 5 -> 45+5 = 50 updated marks --> 50
+2) myMarks= myMarks + 1  --> myMarks = 45 + 1 = 46
+*/
+//console.log(myMarks);
+//console.log(myUpdatedMarks);
 
 //prefix
 //var myMarks = 45;
-//var myUpdatedMarks = ++myMarks; // expression .// (45+1) + 5
+//var myUpdatedMarks = ++myMarks + 5; // expression .//
 // first the value of the variable is incremented
 /* then the expression is evaluated with the updated value */
-
-//console.log(myMarks);
-//console.log(myUpdatedMarks);
+/* 1) 45+1 =46   46+5 --> 51 updated myMarks
+2) mymarks - 46 */
+/* console.log(myMarks);
+console.log(myUpdatedMarks); */
 
 /* a++ ~ a=a+1 */
 //var myMarks = 45;
@@ -71,8 +77,8 @@ console.log(A < B && B > 0); */
 
 /* A < B - 1; // true
 B > 0 - 1; // true */
-var A = 11;
-var B = -22;
+/* var A = 11;
+var B = -22; */
 
 /* && -  AND operator
 || - OR operator */
@@ -81,7 +87,7 @@ var B = -22;
 A < B - true;
 B > 0 - false; */
 
-console.log(!(A < B) || B > 0);
+/* console.log(!(A < B) || B > 0);
 A < B - false;
 B > 0 - false;
 //string operator
@@ -95,19 +101,28 @@ console.log(myName - mySurName);
 
 console.log(myName + myMark);
 console.log(myName + myMark);
-console.log(myMark - myNewMark); //bug
+console.log(myMark - myNewMark); 
 
 console.log(true + true); // 1+1
 console.log(myMark - myName); // 1+1
+
+
+ */
 
 //WAP to swap two variables
 var x = 9;
 var y = 6;
 
+//x=6, y=9
+
 //intoduced one 3rd variable
-var z = y; // z=6
-y = x; //y=9
-x = z; // x=6
+//var z = y; // z=6 // whatever value is there inside y , assign that value to z , = is a assignment operator
+//y = x; //y=9
+//x = z; // x=6
+
+x = x + y; //x=15
+y = x - y; //15-6 = 9  y=9
+x = x - y; //15-9 = 6
 
 console.log(x);
 console.log(y);
