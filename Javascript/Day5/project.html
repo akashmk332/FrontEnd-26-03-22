@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        margin: 20px;
+      }
+      .left {
+        width: 50%;
+        padding: 20px;
+      }
+      .left-img {
+        max-width: 100%;
+      }
+      .right {
+        width: 50%;
+      }
+      p {
+        padding: 20px;
+      }
+
+      @media (min-width: 400px) and (max-width: 700px) {
+        .container {
+          flex-direction: column;
+        }
+        .left {
+          width: 100%;
+        }
+        .right {
+          width: 100%;
+          padding: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <img
+          src="https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg
+        "
+          class="left-img"
+        />
+      </div>
+      <div class="right">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum delectus
+          corrupti quas architecto a ut fuga error necessitatibus consequatur,
+          maxime, fugit libero exercitationem perferendis impedit, veniam ullam
+          eos excepturi tempora? Velit nihil quos corporis magnam magni ratione
+          quae dolor atque consequatur molestias commodi, maiores quas! Quasi
+          consequuntur corrupti unde magnam illo, deleniti perspiciatis? Quis
+          nobis, neque consequuntur illum id debitis est maxime reiciendis
+          facere, suscipit corrupti quibusdam nihil optio modi quos quod tempore
+          ut deleniti at eaque. Maxime nulla eum amet dolorem corporis deleniti
+          porro soluta! Reprehenderit debitis assumenda nisi? Excepturi natus
+          perferendis rerum, recusandae eius blanditiis autem quas vero!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
